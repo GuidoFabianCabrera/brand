@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <title>Brand📦</title>
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <nav class="fadeInDown">
+      <div class="brand_images">
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+      </div>
+      <div class="nav_options">
+        <ul>
+          <li><a href="faqs.html">Faqs</a></li>
+          <li><a href="producto.html">Producto y descripción</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Formulario Venta -->
+    <div class="form_container fadeIn">
+      <div class="product_description">
+        <img src="images/catbox1.png" alt="" />
+        <h3>Producto 1</h3>
+        <p>
+          Miles de productos hay en el mercado, pero nada como una caja de
+          gatitos
+        </p>
+      </div>
+      <form
+        action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7E2GT2RCR3ZNL"
+        method="POST"
+      >
+        <label for="name">Nombre</label>
+        <input type="text" class="form_data" id="name" required />
+        <label for="email">E-mail</label>
+        <input type="text" class="form_data" id="email" required />
+        <label for="phone">Teléfono</label>
+        <input type="text" class="form_data" id="phone" required />
+        <input
+          type="submit"
+          class="main_button"
+          id="submit"
+          value="Confirmar Pago"
+        />
+      </form>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="terminos.html">Términos y Condiciones</a>
+      <a href="https://www.instagram.com/guidofc1/" target="_blanck"
+        >Contacto</a
+      >
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script/script.js"></script>
+  </body>
+</html>
